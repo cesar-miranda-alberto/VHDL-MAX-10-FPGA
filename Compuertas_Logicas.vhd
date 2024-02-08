@@ -27,7 +27,7 @@ end Compuertas_Logicas;																			-- Fin de la entidad
 
 architecture simple of Compuertas_Logicas is																-- Declaración "SIMPLE" de la arquitectura 
 begin																					-- Inicio de la arquitectura
-		RNOT <= not (A);																	-- Ejecuta las compuertas lógicas dentro de la arquitectura
+		RNOT <= not (A);																	-- Ejecuta las compuertas lógicas dentro de la arquitectura y asigna el resultado a los puertos de salida
 		RAND <= A and B;
 		RNAND <= A nand B;
 		REOR <= A or B;
