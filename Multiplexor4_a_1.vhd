@@ -10,7 +10,7 @@
 					Sel : in STD_LOGIC_VECTOR(1 downto 0);
 					Salida : out STD_LOGIC
 			);
-end MUltiplexor4_a_1;
+end Multiplexor4_a_1;
 
 architecture simple of MUltiplexor4_a_1 is 
 	begin
