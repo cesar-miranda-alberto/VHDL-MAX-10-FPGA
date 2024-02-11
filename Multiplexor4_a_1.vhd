@@ -15,7 +15,7 @@ end MUltiplexor4_a_1;
 architecture simple of MUltiplexor4_a_1 is 
 	begin
 	
-			process(A,B,C,D)
+			process(Sel)
 				begin
 					
 					case Sel IS
@@ -24,7 +24,7 @@ architecture simple of MUltiplexor4_a_1 is
 							when "01" => Salida <= B;
 							when "10" => Salida <= C;
 							when "11" => Salida <= D;
-							when others => null;
+							when others => Salida <='1';
 					
 					end case;
 					end process;
