@@ -47,8 +47,8 @@ architecture simple of Multiplexor4_a_1_Testbench is
 			Sel <="10";
 			wait for 100 ns;
 			Sel <= "11";
-			wait;
-			
+			wait for 100 ns;
+			wait;		
 		end process;
 		
 end simple;
