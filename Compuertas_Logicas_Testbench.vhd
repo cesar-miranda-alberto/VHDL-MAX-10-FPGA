@@ -1,10 +1,11 @@
 --------------------------------------------------------------------------------------------------
 -- 					***** COMPUERTAS LÓGICAS TESTBENCH *****	         -
 --												 -
---		El presente código desarrollado en vhdl tiene como finalidad la implementación	 -
+--      El presente código desarrollado en vhdl tiene como finalidad la implementación	         -
 --  	del testbech correspondiente a las compuertas lógicas en vhdl desarrollado		 -
---		anteriormente, con el fin de analizar el funcionamiento .			 -
---    Fecha: 07-Enero-2023									 -	
+--	anteriormente, con el fin de analizar el funcionamiento .			         -
+-												 -
+--      Fecha: 07-Enero-2023									 -	
 -- 	Versión: 1.0									         -
 --------------------------------------------------------------------------------------------------
 
