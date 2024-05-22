@@ -12,7 +12,7 @@ library IEEE;																				-- Incluye librerias correspondientes del IEEE
 use IEEE.std_logic_1164.all;																		-- Agrega la libreria del IEEE a utilizar
 
 entity Compuertas_Logicas is																		-- Creación de la entidad y asignación de nombre
-		port(																			-- Inicio de declaración de puertos de entrada y salida
+		port(																			-- Inicio de declaración de puertos de entradas y salidas
 				A : in STD_LOGIC;															-- Entrada de un bit
 				B : in STD_LOGIC;
 				RNOT : out STD_LOGIC;															-- Salida de un bit
